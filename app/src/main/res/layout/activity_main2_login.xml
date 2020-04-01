@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36363A"
+    tools:context=".Main2Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:background="#9F9FA5"
+            android:padding="10dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <EditText
+            android:id="@+id/collgID"
+            android:layout_width="375dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/colleg_Id"
+            android:inputType="textEmailAddress"
+            android:textAlignment="viewStart"
+            android:textColor="#FBFCF7"
+            android:textColorHint="#F6F8F3"
+            android:textSize="30sp"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar1"
+            tools:ignore="AutoFill" />
+
+        <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="104dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="50dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/passw"
+            android:layout_width="384dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/passReg"
+            android:inputType="textPassword"
+            android:textAlignment="viewStart"
+            android:textColor="#FBFCF7"
+            android:textColorHint="#FDF9FA"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/Sign_In"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/collgID"
+            tools:ignore="AutoFill" />
+
+    <Button
+        android:id="@+id/Sign_In"
+        android:layout_width="336dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/loginBtn1"
+        android:text="@string/loginBtn1"
+        android:textSize="30sp"
+        android:background="@drawable/custom_btn"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Sign_Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passw" />
+
+    <Button
+        android:id="@+id/Sign_Up"
+        android:layout_width="337dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/signUpBtn2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Sign_In" />
+
+        <TextView
+            android:id="@+id/reset"
+            android:layout_width="357dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/reset"
+            android:textAlignment="center"
+            android:textColor="#BB1603"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonSignUp" />
+
+    </LinearLayout>
+
+</ScrollView>

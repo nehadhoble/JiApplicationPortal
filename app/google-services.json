@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "486373416732",
+    "firebase_url": "https://jiapplicationportal.firebaseio.com",
+    "project_id": "jiapplicationportal",
+    "storage_bucket": "jiapplicationportal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486373416732:android:68308f0773a3dbadd7a4d9",
+        "android_client_info": {
+          "package_name": "com.LetsCrack.jiapplicationportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486373416732-t42pp076k4dfk42mluls0strcau8e5kj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LetsCrack.jiapplicationportal",
+            "certificate_hash": "136b9ab96a046d4f0ea8285dbbed26c756460562"
+          }
+        },
+        {
+          "client_id": "486373416732-l82fplbjo2nbkp05n2apfu9510nmhaei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmoEY8ziykf0vVPO5OrJU-S5qMA43XDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486373416732-l82fplbjo2nbkp05n2apfu9510nmhaei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36363A"
+    tools:context=".SubmissionActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="358dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="11dp"
+            android:background="#9F9FA5"
+            app:layout_constraintBottom_toTopOf="@id/textViewf" />
+
+        <TextView
+            android:id="@+id/textViewf"
+            android:layout_width="327dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/holiday"
+            android:textAlignment="center"
+            android:textColor="#3EF8F8"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintHorizontal_bias="0.0" />
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:scrollbarSize="40dp" />
+
+        <EditText
+            android:id="@+id/editTextD28"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:ems="10"
+            android:hint="@string/d2"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColor="#F9FAF2"
+            android:textColorHint="#F9FAF2"
+            android:textSize="36sp"
+            tools:ignore="AutoFill" />
+
+
+        <Button
+            android:id="@+id/toProcess"
+            android:layout_width="281dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/custom_btn"
+            android:text="@string/toPro"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/yr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="40dp"
+            android:hint="@string/yr"
+            android:enabled="false"
+            android:textColorHint="#F9FAF2"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:inputType="date"
+            tools:ignore="AutoFill"/>
+
+        <Button
+            android:id="@+id/buttonSendM"
+            android:layout_width="325dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/custom_btn"
+            android:text="@string/send"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+        android:id="@+id/editTextD18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/d1"
+        android:enabled="false"
+        android:layout_marginTop="20dp"
+        android:inputType="date"
+        tools:ignore="AutoFill"/>
+
+
+    <EditText
+        android:id="@+id/wrRoomNo8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="@string/wRoomNo"
+        android:inputType="number"
+        android:enabled="false"
+        tools:ignore="AutoFill"/>
+
+    <EditText
+        android:id="@+id/wPhoneNo8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/wPhoneNo"
+        android:inputType="phone"
+        tools:ignore="AutoFill" />
+
+    <EditText
+        android:id="@+id/wName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/wName"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        tools:ignore="AutoFill"/>
+
+        <EditText
+            android:id="@+id/wph1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:enabled="false"
+            android:text=""
+            android:hint="@string/ph1"
+            android:inputType="phone"
+            tools:ignore="AutoFill" />
+        <EditText
+            android:id="@+id/wPh2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:enabled="false"
+            android:text=""
+            android:hint="@string/ph2"
+            android:inputType="phone"
+            tools:ignore="AutoFill" />
+
+    </LinearLayout>
+</ScrollView>

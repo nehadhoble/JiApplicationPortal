@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">JijauPortal</string>
+    <string name="email_Id">Email</string>//Login page
+    <string name="colleg_Id">Enter G-mail</string>//Registration page
+    <string name="roomNum">Enter Room NO.</string>//Registration page
+    <string name="phoneNum">Enter Phone Number</string>
+    <string name="name">Enter Your Name</string>
+    <string name="passReg">Enter Password</string>//Registration page
+    <string name="register">SIGN UP</string>//Registration page
+    <string name="textView">Already Registered? SIGNIN</string>
+    <string name="pass">Password</string>
+    <string name="loginBtn1">SIGN IN</string>
+    <string name="coolgId">Enter College Id</string>
+    <string name="yr">Enter Year</string>
+    <string name="address">Enter Permanant Address</string>
+    <string name="ph1">Parent PhoneNo1</string>
+    <string name="ph2">Parent PhoneNo2</string>
+    <string name="toPro">To Process</string>
+    <string name="signUpBtn2">SIGN UP</string>
+    <string name="launcher">Launcher</string>
+    <string name="text3">JIJAU \t GIRLS \t  HOSTEL</string>
+    <string name="text4">GCOEA</string>
+    <string name="plainText">REGISTER YOURSELF</string>
+    <string name="registration_success">string</string>
+    <string name="application">ApplicationPortal</string>//PortalActivity
+    <string name="d1">Start Date</string>//application portal
+    <string name="d2">Select End Date</string>//application portal
+    <string name="from">FROM:-</string>//application portal
+    <string name="to">TO:-</string>//application portal
+    <string name="proceed">PROCEED</string>//application portal
+    <string name="wName">Name</string>
+    <string name="wRoomNo">Room No</string>
+    <string name="wPhoneNo">Phone No</string>
+    <string name="show">SHOW</string>
+    <string name="holiday">Happy Holiday!!</string>
+    <string name="action_settings">Settings</string>
+    <string name="abDevelopers">About Developers</string>
+    <string name="image">image</string>
+    <string name="devName">NEHA DHOBLE(CSE)\n PhNo:-7666649102</string>
+    <string name="devName2">SNEHAL BAGALE(INSTRU)\n PhNo:-8390932519</string>
+    <string name="send">SEND APPLICATION</string>
+    <string name="verify">VERIFY</string>
+    <string name="enterCod">Verification Code</string>
+    <string name="reset">Forgot password?? Reset passwrd!!</string>
+    <string name="resetpass">Reset Password</string>
+
+</resources>
